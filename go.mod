@@ -1,5 +1,6 @@
 module github.com/rodrigoHol/Backend-SmartBite
 
-go 1.26.2
-
-require github.com/joho/godotenv v1.5.1 // indirect
+go 1.25.0
+require (
+    github.com/joho/godotenv v1.5.1
+)
