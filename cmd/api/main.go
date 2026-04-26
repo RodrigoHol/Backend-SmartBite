@@ -21,7 +21,9 @@ func main() {
 	apiKeys := strings.Split(keysString, ",")
 
 	clienteRecetas := services.NewSpoonacularClient(apiKeys)
-	controladorRecetas := handlers.NewRecetasHandler(clienteRecetas)
+	cacheRecetas := services.NewRecipeCache()
+
+	controladorRecetas := handlers.NewRecetasHandler(clienteRecetas, cacheRecetas)
 
 	//Declaramos las rutas
 	http.HandleFunc("/api/recetas/buscar", controladorRecetas.Buscar)
