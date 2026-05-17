@@ -23,7 +23,9 @@ func NewRecetasHandler(c *services.SpoonacularClient, cache *services.RecipeCach
 
 // Buscar maneja la ruta GET /api/recetas/buscar
 func (h *RecetasHandler) Buscar(w http.ResponseWriter, r *http.Request) {
-	ingrediente := r.URL.Query().Get("query")
+	queryParams := r.URL.Query()
+
+	ingrediente := queryParams.Get("query")
 	ingrediente = strings.ToLower(strings.TrimSpace(ingrediente))
 
 	if ingrediente == "" {
@@ -31,34 +33,44 @@ func (h *RecetasHandler) Buscar(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// 0. Intentamos obtener de la caché primero
-	if cachedResult, found := h.cache.GetSearch(ingrediente); found {
+	// 1. Extraer dietas e intolerancias (devuelve []string)
+	dietsList := queryParams["diet"]
+	intolerancesList := queryParams["intolerance"]
+
+	// Unir arreglos en un string separado por comas para Spoonacular ("vegan,vegetarian")
+	dietsStr := strings.Join(dietsList, ",")
+	intolerancesStr := strings.Join(intolerancesList, ",")
+
+	// 2. Crear una llave de caché única que incluya las preferencias
+	// Ej: "chicken|vegan,vegetarian|gluten"
+	cacheKey := fmt.Sprintf("%s|%s|%s", ingrediente, dietsStr, intolerancesStr)
+
+	// 3. Intentamos obtener de la caché primero usando la nueva llave
+	if cachedResult, found := h.cache.GetSearch(cacheKey); found {
 		w.Header().Set("Content-Type", "application/json")
 		json.NewEncoder(w).Encode(cachedResult)
 		return
 	}
 
-	// 1. Buscamos en Spoonacular usando tu servicio
-	resultado, err := h.client.SearchRecipes(ingrediente)
+	// 4. Buscamos en Spoonacular pasando las preferencias
+	resultado, err := h.client.SearchRecipes(ingrediente, dietsStr, intolerancesStr)
 	if err != nil {
 		http.Error(w, fmt.Sprintf(`{"error": "%s"}`, err.Error()), http.StatusInternalServerError)
 		return
 	}
 
-	// 2. MAGIA DE GO: Pasamos el JSON crudo a nuestra estructura limpia
+	// 5. MAGIA DE GO: Pasamos el JSON crudo a nuestra estructura limpia
 	var datosLimpios models.SearchResponse
 	if err := json.Unmarshal(resultado.Data, &datosLimpios); err != nil {
 		http.Error(w, `{"error": "Error al procesar los datos de la receta"}`, http.StatusInternalServerError)
 		return
 	}
 
-	// 3. Guardamos en la caché para futuras peticiones
-	h.cache.SetSearch(ingrediente, datosLimpios)
+	// 6. Guardamos en la caché usando la llave compuesta
+	h.cache.SetSearch(cacheKey, datosLimpios)
 
-	// 4. Enviamos el nuevo JSON (ya limpio) a Android
+	// 7. Enviamos el nuevo JSON (ya limpio) a Android
 	w.Header().Set("Content-Type", "application/json")
-
-	// json.NewEncoder toma nuestros datos limpios y los escribe directamente en la respuesta web
 	json.NewEncoder(w).Encode(datosLimpios)
 }
 

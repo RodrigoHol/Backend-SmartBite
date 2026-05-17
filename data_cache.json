@@ -87,6 +87,35 @@
         }
       ]
     },
+    "chicken|vegetarian|": {
+      "results": [
+        {
+          "id": 660405,
+          "title": "Smoky Black Bean Soup With Sweet Potato \u0026 Kale",
+          "image": "https://img.spoonacular.com/recipes/660405-312x231.jpg"
+        },
+        {
+          "id": 638741,
+          "title": "Chipotle Black Bean Soup with Avocado Cream",
+          "image": "https://img.spoonacular.com/recipes/638741-312x231.jpg"
+        },
+        {
+          "id": 638780,
+          "title": "Chock Full Of Broccoli Soup",
+          "image": "https://img.spoonacular.com/recipes/638780-312x231.jpg"
+        },
+        {
+          "id": 664969,
+          "title": "Warm Quinoa Spinach and Shiitake Salad",
+          "image": "https://img.spoonacular.com/recipes/664969-312x231.jpg"
+        },
+        {
+          "id": 1646941,
+          "title": "Mexican Quinoa Bowl",
+          "image": "https://img.spoonacular.com/recipes/1646941-312x231.jpg"
+        }
+      ]
+    },
     "chili": {
       "results": [
         {
@@ -232,6 +261,70 @@
         }
       ]
     },
+    "meat|vegetarian|": {
+      "results": [
+        {
+          "id": 660405,
+          "title": "Smoky Black Bean Soup With Sweet Potato \u0026 Kale",
+          "image": "https://img.spoonacular.com/recipes/660405-312x231.jpg"
+        },
+        {
+          "id": 638741,
+          "title": "Chipotle Black Bean Soup with Avocado Cream",
+          "image": "https://img.spoonacular.com/recipes/638741-312x231.jpg"
+        },
+        {
+          "id": 638780,
+          "title": "Chock Full Of Broccoli Soup",
+          "image": "https://img.spoonacular.com/recipes/638780-312x231.jpg"
+        },
+        {
+          "id": 664969,
+          "title": "Warm Quinoa Spinach and Shiitake Salad",
+          "image": "https://img.spoonacular.com/recipes/664969-312x231.jpg"
+        },
+        {
+          "id": 1646941,
+          "title": "Mexican Quinoa Bowl",
+          "image": "https://img.spoonacular.com/recipes/1646941-312x231.jpg"
+        }
+      ]
+    },
+    "milk|vegetarian|dairy": {
+      "results": []
+    },
+    "milk||": {
+      "results": [
+        {
+          "id": 646930,
+          "title": "Homemade Broccoli Cheddar Soup",
+          "image": "https://img.spoonacular.com/recipes/646930-312x231.jpg"
+        },
+        {
+          "id": 655806,
+          "title": "Pesto \u0026 Yogurt Pasta",
+          "image": "https://img.spoonacular.com/recipes/655806-312x231.jpg"
+        },
+        {
+          "id": 716435,
+          "title": "Herbed Goat Cheese Yogurt Dip w. Caramelized Onions",
+          "image": "https://img.spoonacular.com/recipes/716435-312x231.jpg"
+        },
+        {
+          "id": 665550,
+          "title": "Yogurt Marinated Lamb Skewers",
+          "image": "https://img.spoonacular.com/recipes/665550-312x231.jpg"
+        },
+        {
+          "id": 879449,
+          "title": "Cranberry Pecan Greek Yogurt Chicken Salad",
+          "image": "https://img.spoonacular.com/recipes/879449-312x231.png"
+        }
+      ]
+    },
+    "milk||dairy": {
+      "results": []
+    },
     "onion": {
       "results": [
         {
@@ -258,6 +351,38 @@
           "id": 716426,
           "title": "Cauliflower, Brown Rice, and Vegetable Fried Rice",
           "image": "https://img.spoonacular.com/recipes/716426-312x231.jpg"
+        }
+      ]
+    },
+    "salssaa": {
+      "results": []
+    },
+    "salt": {
+      "results": [
+        {
+          "id": 715415,
+          "title": "Red Lentil Soup with Chicken and Turnips",
+          "image": "https://img.spoonacular.com/recipes/715415-312x231.jpg"
+        },
+        {
+          "id": 782601,
+          "title": "Red Kidney Bean Jambalaya",
+          "image": "https://img.spoonacular.com/recipes/782601-312x231.jpg"
+        },
+        {
+          "id": 716426,
+          "title": "Cauliflower, Brown Rice, and Vegetable Fried Rice",
+          "image": "https://img.spoonacular.com/recipes/716426-312x231.jpg"
+        },
+        {
+          "id": 716004,
+          "title": "Quinoa and Chickpea Salad with Sun-Dried Tomatoes and Dried Cherries",
+          "image": "https://img.spoonacular.com/recipes/716004-312x231.jpg"
+        },
+        {
+          "id": 664147,
+          "title": "Tuscan White Bean Soup with Olive Oil and Rosemary",
+          "image": "https://img.spoonacular.com/recipes/664147-312x231.jpg"
         }
       ]
     },
@@ -1732,6 +1857,84 @@
         }
       ]
     },
+    "660405": {
+      "id": 660405,
+      "title": "Smoky Black Bean Soup With Sweet Potato \u0026 Kale",
+      "image": "https://img.spoonacular.com/recipes/660405-556x370.jpg",
+      "readyInMinutes": 630,
+      "servings": 6,
+      "extendedIngredients": [
+        {
+          "original": "6 cups Chicken Broth or Water"
+        },
+        {
+          "original": "3 tablespoons Chipotle chiles"
+        },
+        {
+          "original": "1 pound Dried Black Beans"
+        },
+        {
+          "original": "2 tablespoons Ground Cumin"
+        },
+        {
+          "original": "1 bunch kale"
+        },
+        {
+          "original": "2 tablespoons olive oil"
+        },
+        {
+          "original": "1 Onion – Chopped"
+        },
+        {
+          "original": "Salt \u0026 Pepper"
+        },
+        {
+          "original": "3 lbs sweet potatoes"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "steps": [
+            {
+              "number": 1,
+              "step": "Spread the dry beans out on a baking sheet and pick out any pebbles."
+            },
+            {
+              "number": 2,
+              "step": "Place the beans in a big soup pot, cover with water by 3 inches and allow them to soak overnight or for 6-8 hours, then discard that water. Return the soaked beans to the pot and cover with 3 inches of water again, bring to a boil. Reduce heat to medium low, put the cover on and allow to cook until the beans start to get tender but still firm, about 1 1/2 hours."
+            },
+            {
+              "number": 3,
+              "step": "Drain the beans."
+            },
+            {
+              "number": 4,
+              "step": "Heat the oil in a soup pot over med-high heat."
+            },
+            {
+              "number": 5,
+              "step": "Add the onion along with a pinch of salt and saute until softened and golden. Stir in 1 tbsp of ground cumin, add the beans along with the broth or water and bring to a boil. Reduce heat to medium-low, cover and cook for 30 min. Meanwhile peel and chop the sweet potatoes. Wash the kale, remove the stems and chop the leaves."
+            },
+            {
+              "number": 6,
+              "step": "Remove half of the beans and liquid and set aside to cool a bit."
+            },
+            {
+              "number": 7,
+              "step": "Add the sweet potatoes and kale to the pot with some salt and pepper. Cover and cook for 10 minutes."
+            },
+            {
+              "number": 8,
+              "step": "Transfer the cooled beans to a blender and puree until smooth, then return them to the pot. Stir in the remaining 1 tbsp of ground cumin. Now add 1 tbsp of the chipotles in adobo. Taste and continue to add more until it has a spice level that you like. Adjust the salt \u0026amp; pepper as needed."
+            },
+            {
+              "number": 9,
+              "step": "Serve with a dollop of sour cream."
+            }
+          ]
+        }
+      ]
+    },
     "661925": {
       "id": 661925,
       "title": "Strawberry-Mango Quinoa Salad",
@@ -1917,6 +2120,74 @@
             {
               "number": 4,
               "step": "Drizzle with the olive oil, sprinkle with rosemary, and serve."
+            }
+          ]
+        }
+      ]
+    },
+    "664969": {
+      "id": 664969,
+      "title": "Warm Quinoa Spinach and Shiitake Salad",
+      "image": "https://img.spoonacular.com/recipes/664969-556x370.jpg",
+      "readyInMinutes": 45,
+      "servings": 6,
+      "extendedIngredients": [
+        {
+          "original": "6 cups loosely packed stemmed baby spinach"
+        },
+        {
+          "original": "Freshly ground black pepper"
+        },
+        {
+          "original": "2 cups (500 mL) Chicken Broth"
+        },
+        {
+          "original": "¼ cup (50 mL) crumbled feta cheese"
+        },
+        {
+          "original": "Extra-virgin olive oil"
+        },
+        {
+          "original": "½ cup (125 mL) finely chopped sweet red pepper"
+        },
+        {
+          "original": "2 tablespoons Red wine vinegar"
+        },
+        {
+          "original": "1 pkg (225 g) PC Organics Roasted Garlic and Fine Herbs Quinoa"
+        },
+        {
+          "original": "Pinch Salt"
+        },
+        {
+          "original": "2 Shallots, finely diced"
+        },
+        {
+          "original": "6 oz (180 g) shiitake mushrooms, stems discarded and caps thinly sliced"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "steps": [
+            {
+              "number": 1,
+              "step": "In saucepan, bring chicken broth to a boil. Stir in quinoa and contents of seasoning pouch. Reduce heat to low, cover and simmer for 12 to 15 minutes or until tender."
+            },
+            {
+              "number": 2,
+              "step": "Remove from heat; let stand, covered, for 5 minutes. Fluff with a fork.In large nonstick frying pan, heat oil over medium heat; cook shallots and red pepper for 4 to 6 minutes, stirring occasionally, or until lightly golden and softened. Stir in mushrooms; cook, stirring occasionally, for 6 to 8 minutes or until mushrooms have released their juices and are starting to turn golden."
+            },
+            {
+              "number": 3,
+              "step": "Add vinegar; cook, stirring to bring up browned bits, for 1 minute. Stir in spinach; cook, stirring, for 2 minutes or just until wilted. Stir in salt and pepper."
+            },
+            {
+              "number": 4,
+              "step": "Remove from heat.In large bowl, toss quinoa with warm spinach mixture."
+            },
+            {
+              "number": 5,
+              "step": "Serve sprinkled with feta.More recipe ideas are available online at pc.ca."
             }
           ]
         }

@@ -127,11 +127,25 @@ func (c *SpoonacularClient) fetchWithRotation(urlBuilder func(key string) string
 }
 
 // SearchRecipes construye la URL para la búsqueda compleja (CU-08) [cite: 127]
-func (c *SpoonacularClient) SearchRecipes(query string) (*APIResponse, error) {
+func (c *SpoonacularClient) SearchRecipes(query string, diets string, intolerances string) (*APIResponse, error) {
 	urlBuilder := func(key string) string {
 		// url.QueryEscape equivale al encodeURIComponent de JavaScript
 		safeQuery := url.QueryEscape(query)
-		return fmt.Sprintf("%s/complexSearch?query=%s&apiKey=%s&number=5", c.baseURL, safeQuery, key)
+
+		// Construimos la URL base
+		baseURL := fmt.Sprintf("%s/complexSearch?query=%s&apiKey=%s&number=5", c.baseURL, safeQuery, key)
+
+		// Si hay dietas, las concatenamos
+		if diets != "" {
+			baseURL += fmt.Sprintf("&diet=%s", url.QueryEscape(diets))
+		}
+
+		// Si hay intolerancias, las concatenamos
+		if intolerances != "" {
+			baseURL += fmt.Sprintf("&intolerances=%s", url.QueryEscape(intolerances))
+		}
+
+		return baseURL
 	}
 
 	return c.fetchWithRotation(urlBuilder)
