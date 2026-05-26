@@ -87,6 +87,35 @@
         }
       ]
     },
+    "chicken pesque": {
+      "results": [
+        {
+          "id": 637876,
+          "title": "Chicken 65",
+          "image": "https://img.spoonacular.com/recipes/637876-312x231.jpg"
+        },
+        {
+          "id": 716342,
+          "title": "Chicken Suya",
+          "image": "https://img.spoonacular.com/recipes/716342-312x231.jpg"
+        },
+        {
+          "id": 638420,
+          "title": "Chicken Wings",
+          "image": "https://img.spoonacular.com/recipes/638420-312x231.jpg"
+        },
+        {
+          "id": 638308,
+          "title": "Chicken Satay",
+          "image": "https://img.spoonacular.com/recipes/638308-312x231.jpg"
+        },
+        {
+          "id": 638086,
+          "title": "Chicken Fingers",
+          "image": "https://img.spoonacular.com/recipes/638086-312x231.jpg"
+        }
+      ]
+    },
     "chili": {
       "results": [
         {
@@ -174,6 +203,35 @@
         }
       ]
     },
+    "egg": {
+      "results": [
+        {
+          "id": 716432,
+          "title": "Finger Foods: Frittata Muffins",
+          "image": "https://img.spoonacular.com/recipes/716432-312x231.jpg"
+        },
+        {
+          "id": 636589,
+          "title": "Butternut Squash Frittata",
+          "image": "https://img.spoonacular.com/recipes/636589-312x231.jpg"
+        },
+        {
+          "id": 656481,
+          "title": "Poached Egg With Spinach and Tomato",
+          "image": "https://img.spoonacular.com/recipes/656481-312x231.jpg"
+        },
+        {
+          "id": 716217,
+          "title": "Vietnamese Pancakes with Vegetables, Herbs and a Fragrant Dipping Sauce (Bánh Xèo)",
+          "image": "https://img.spoonacular.com/recipes/716217-312x231.jpg"
+        },
+        {
+          "id": 645978,
+          "title": "Ground Turkey Stuffed Peppers",
+          "image": "https://img.spoonacular.com/recipes/645978-312x231.jpg"
+        }
+      ]
+    },
     "garlic": {
       "results": [
         {
@@ -232,6 +290,35 @@
         }
       ]
     },
+    "oatmeal 3 minutes": {
+      "results": [
+        {
+          "id": 653447,
+          "title": "Oatmeal Coconut Cake",
+          "image": "https://img.spoonacular.com/recipes/653447-312x231.jpg"
+        },
+        {
+          "id": 653442,
+          "title": "Oatmeal Brownie Bars",
+          "image": "https://img.spoonacular.com/recipes/653442-312x231.jpg"
+        },
+        {
+          "id": 653445,
+          "title": "Oatmeal Coconut Cookies",
+          "image": "https://img.spoonacular.com/recipes/653445-312x231.jpg"
+        },
+        {
+          "id": 653443,
+          "title": "Oatmeal Butterscotch Pies",
+          "image": "https://img.spoonacular.com/recipes/653443-312x231.jpg"
+        },
+        {
+          "id": 918031,
+          "title": "Oatmeal Chocolate Chip Cookies",
+          "image": "https://img.spoonacular.com/recipes/918031-312x231.jpg"
+        }
+      ]
+    },
     "onion": {
       "results": [
         {
@@ -258,6 +345,96 @@
           "id": 716426,
           "title": "Cauliflower, Brown Rice, and Vegetable Fried Rice",
           "image": "https://img.spoonacular.com/recipes/716426-312x231.jpg"
+        }
+      ]
+    },
+    "pescuesos": {
+      "results": []
+    },
+    "rice": {
+      "results": [
+        {
+          "id": 716627,
+          "title": "Easy Homemade Rice and Beans",
+          "image": "https://img.spoonacular.com/recipes/716627-312x231.jpg"
+        },
+        {
+          "id": 716364,
+          "title": "Rice and Peas with Coconut Curry Mackerel",
+          "image": "https://img.spoonacular.com/recipes/716364-312x231.jpg"
+        },
+        {
+          "id": 716426,
+          "title": "Cauliflower, Brown Rice, and Vegetable Fried Rice",
+          "image": "https://img.spoonacular.com/recipes/716426-312x231.jpg"
+        },
+        {
+          "id": 716311,
+          "title": "Mango Fried Rice",
+          "image": "https://img.spoonacular.com/recipes/716311-312x231.jpg"
+        },
+        {
+          "id": 782601,
+          "title": "Red Kidney Bean Jambalaya",
+          "image": "https://img.spoonacular.com/recipes/782601-312x231.jpg"
+        }
+      ]
+    },
+    "salt": {
+      "results": [
+        {
+          "id": 715415,
+          "title": "Red Lentil Soup with Chicken and Turnips",
+          "image": "https://img.spoonacular.com/recipes/715415-312x231.jpg"
+        },
+        {
+          "id": 782601,
+          "title": "Red Kidney Bean Jambalaya",
+          "image": "https://img.spoonacular.com/recipes/782601-312x231.jpg"
+        },
+        {
+          "id": 716426,
+          "title": "Cauliflower, Brown Rice, and Vegetable Fried Rice",
+          "image": "https://img.spoonacular.com/recipes/716426-312x231.jpg"
+        },
+        {
+          "id": 716004,
+          "title": "Quinoa and Chickpea Salad with Sun-Dried Tomatoes and Dried Cherries",
+          "image": "https://img.spoonacular.com/recipes/716004-312x231.jpg"
+        },
+        {
+          "id": 664147,
+          "title": "Tuscan White Bean Soup with Olive Oil and Rosemary",
+          "image": "https://img.spoonacular.com/recipes/664147-312x231.jpg"
+        }
+      ]
+    },
+    "sugar": {
+      "results": [
+        {
+          "id": 642129,
+          "title": "Easy To Make Spring Rolls",
+          "image": "https://img.spoonacular.com/recipes/642129-312x231.jpg"
+        },
+        {
+          "id": 639891,
+          "title": "Coffee-braised Short Ribs",
+          "image": "https://img.spoonacular.com/recipes/639891-312x231.jpg"
+        },
+        {
+          "id": 646043,
+          "title": "Gujarati Dry Mung Bean Curry",
+          "image": "https://img.spoonacular.com/recipes/646043-312x231.jpg"
+        },
+        {
+          "id": 652393,
+          "title": "Moosewood Lentil Soup",
+          "image": "https://img.spoonacular.com/recipes/652393-312x231.jpg"
+        },
+        {
+          "id": 716217,
+          "title": "Vietnamese Pancakes with Vegetables, Herbs and a Fragrant Dipping Sauce (Bánh Xèo)",
+          "image": "https://img.spoonacular.com/recipes/716217-312x231.jpg"
         }
       ]
     },
@@ -1646,6 +1823,82 @@
         }
       ]
     },
+    "653447": {
+      "id": 653447,
+      "title": "Oatmeal Coconut Cake",
+      "image": "https://img.spoonacular.com/recipes/653447-556x370.jpg",
+      "readyInMinutes": 45,
+      "servings": 8,
+      "extendedIngredients": [
+        {
+          "original": "1 teaspoon Baking soda"
+        },
+        {
+          "original": "1/2 cup Brown sugar, firmly packed"
+        },
+        {
+          "original": "1/4 cup Melted butter or margarine"
+        },
+        {
+          "original": "3/4 teaspoon Cinnamon"
+        },
+        {
+          "original": "3/4 cup Flaked coconut"
+        },
+        {
+          "original": "2 Eggs"
+        },
+        {
+          "original": "1 1/2 cups Flour"
+        },
+        {
+          "original": "3 tablespoons Half and half or light cream"
+        },
+        {
+          "original": "1/4 teaspoon Nutmeg"
+        },
+        {
+          "original": "1/2 cup Chopped nuts"
+        },
+        {
+          "original": "1 cup Uncooked oatmeal"
+        },
+        {
+          "original": "1/2 teaspoon Salt"
+        },
+        {
+          "original": "1 cup Sugar"
+        },
+        {
+          "original": "1 teaspoon Vanilla"
+        },
+        {
+          "original": "1 1/4 cups Boiling water"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "steps": [
+            {
+              "number": 1,
+              "step": "Pour boiling water over oats stir to combine, cover and let stand 20 minutes. Beat butter until creamy gradually add sugars beating until fluffy. Blend in vanilla and eggs, add to oats mixture and blend well. In separate bowl sift together flour, soda, salt \u0026 spices and add to creamed mixture, mix well."
+            },
+            {
+              "number": 2,
+              "step": "Pour batter into a well greased and floured 9\"x13\" baking pan."
+            }
+          ]
+        },
+        {
+          "steps": [
+            {
+              "number": 1,
+              "step": "Combine all ingredients spread evenly over cake and broil until frosting becomes bubbly."
+            }
+          ]
+        }
+      ]
+    },
     "660395": {
       "id": 660395,
       "title": "Smokey Rainbow Chili",
@@ -2369,6 +2622,135 @@
         }
       ]
     },
+    "716217": {
+      "id": 716217,
+      "title": "Vietnamese Pancakes with Vegetables, Herbs and a Fragrant Dipping Sauce (Bánh Xèo)",
+      "image": "https://img.spoonacular.com/recipes/716217-556x370.jpg",
+      "readyInMinutes": 45,
+      "servings": 6,
+      "extendedIngredients": [
+        {
+          "original": "1 1/3 cups brown rice flour"
+        },
+        {
+          "original": "1/2 tablespoon brown sugar"
+        },
+        {
+          "original": "1 large carrot, scrubbed and grated"
+        },
+        {
+          "original": "pinch of cayenne"
+        },
+        {
+          "original": "1 3/4 cups of coconut milk + water if needed"
+        },
+        {
+          "original": "1 medium daikon radish, scrubbed and grated"
+        },
+        {
+          "original": "1 egg, beaten"
+        },
+        {
+          "original": "1 cup enoki mushrooms, trimmed"
+        },
+        {
+          "original": "2/3 cup fresh basil leaves, roughly chopped"
+        },
+        {
+          "original": "1-inch piece fresh ginger, grated"
+        },
+        {
+          "original": "1/4 cup fresh mint leaves, trimmed and roughly chopped"
+        },
+        {
+          "original": "1 cup fresh parsley or cilantro, roughly chopped"
+        },
+        {
+          "original": "1 clove garlic, crushed"
+        },
+        {
+          "original": "1 fresh green chili, seeded and minced"
+        },
+        {
+          "original": "2 fresh green chilies, seeded and sliced into small strips"
+        },
+        {
+          "original": "4 green onions, washed and cut on an angle"
+        },
+        {
+          "original": "juice from 2 limes"
+        },
+        {
+          "original": "1 cup mung bean sprouts (see note below)"
+        },
+        {
+          "original": "2 fresh red chilies, seeded and minced"
+        },
+        {
+          "original": "1 tablespoon rice vinegar"
+        },
+        {
+          "original": "1/2 teaspoon sea salt"
+        },
+        {
+          "original": "1 1/2 tablespoons toasted sesame oil"
+        },
+        {
+          "original": "sesame oil for frying"
+        },
+        {
+          "original": "1 1/2 cups snow peas, sliced into small strips"
+        },
+        {
+          "original": "1 tablespoon tamari sauce"
+        },
+        {
+          "original": "1 teaspoon turmeric"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "steps": [
+            {
+              "number": 1,
+              "step": "Begin by preparing the pancake batter."
+            },
+            {
+              "number": 2,
+              "step": "Whisk together the rice flour, egg, sea salt, turmeric, cayenne and green chili. Gradually whisk in the coconut milk. The mixture should be a smooth, semi-thick batter that is of pouring consistency."
+            },
+            {
+              "number": 3,
+              "step": "Add a little water if necessary. Cover and set aside while you prepare the rest of the food.Now prepare the sauce."
+            },
+            {
+              "number": 4,
+              "step": "Whisk together all of the ingredients and set aside.For the filling, combine the carrot, radish, green onions, green chilies and snow peas."
+            },
+            {
+              "number": 5,
+              "step": "Put the herbs in another bowl and have your sprouts ready along with the mushrooms."
+            },
+            {
+              "number": 6,
+              "step": "Heat a teaspoon of oil over medium heat in a non-stick skillet. When hot, ladle 1/2 cup of batter into the pan and spread with the bottom of the ladle until you have a roughly 6 to 8 inch pancake.  Fry for 6 to 8 minutes or until you have small holes forming and the bottom is crispy brown, then flip and fry for another few minutes on the other side."
+            },
+            {
+              "number": 7,
+              "step": "Transfer to a plate and keep warm in a 150 oven while you finish the rest of the pancakes  you should finish with 4 to 6 pancakes.To serve, scatter a portion of the vegetables, herbs and mushrooms over one half of the pancake."
+            },
+            {
+              "number": 8,
+              "step": "Sprinkle some sauce over top and fold the pancake."
+            },
+            {
+              "number": 9,
+              "step": "Drizzle with more sauce and there you go."
+            }
+          ]
+        }
+      ]
+    },
     "716330": {
       "id": 716330,
       "title": "Chicken and Mango Skewer",
@@ -2604,6 +2986,40 @@
           ]
         }
       ]
+    },
+    "716432": {
+      "id": 716432,
+      "title": "Finger Foods: Frittata Muffins",
+      "image": "https://img.spoonacular.com/recipes/716432-556x370.jpg",
+      "readyInMinutes": 45,
+      "servings": 1,
+      "extendedIngredients": [
+        {
+          "original": "3/4 cup chopped, cooked broccoli"
+        },
+        {
+          "original": "2 T chopped chives"
+        },
+        {
+          "original": "1 + 2 T cream or whole milk"
+        },
+        {
+          "original": "6 eggs"
+        },
+        {
+          "original": "1/3 cup minced orange pepper"
+        },
+        {
+          "original": "salt and pepper"
+        },
+        {
+          "original": "1/2 cup shredded cheddar cheese"
+        },
+        {
+          "original": "1/3 cup seeded, chopped tomato"
+        }
+      ],
+      "analyzedInstructions": []
     },
     "716627": {
       "id": 716627,
